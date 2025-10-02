@@ -2,9 +2,10 @@ import express from 'express';
 import { AppDataSource } from './orm/Config/Data-source';
 import apiRouter from "./Routes";  
 
+export const app = express();
 
 AppDataSource.initialize().then(() => {
-   const app = express();
+   
    app.use(express.json())
    
 
@@ -14,3 +15,4 @@ AppDataSource.initialize().then(() => {
   console.log("Server running at http://localhost:8081");
 });
 })
+
