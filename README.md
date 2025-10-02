@@ -8,6 +8,7 @@ This backend project manages products, including stock management with addition 
 Step - 1: Installation
 # Clone the repository
 git clone <repo_url>
+cd backend
 
 # Install dependencies
 npm install
