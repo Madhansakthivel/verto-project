@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.3",
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "typeorm": "^0.3.27",
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node ./src/index.ts",
+    "typeorm": "typeorm-ts-node-esm"
+ },
+
+  "devDependencies": {
+    "@types/node": "^24.5.2"
+  }
+}
